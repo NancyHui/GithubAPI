@@ -2,7 +2,6 @@ from core.rest_client import RestClient
 from api.repositories.branches import Branches
 
 
-
 class Repos(RestClient):
     def __init__(self, api_host, **kwargs):
         super(Repos, self).__init__(api_host, **kwargs)
